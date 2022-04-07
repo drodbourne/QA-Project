@@ -20,6 +20,10 @@ covered during training listed below.
 
 <h3><u>Project Planning</u></h3>
 <p>
+<img src="https://github.com/drodbourne/dalerep/blob/a149174923e98137fb5792695049fcc55b0e0de2/Kanban%20Board.drawio.png">
+</p>
+
+<p>
 <img src="https://raw.githubusercontent.com/drodbourne/dalerep/abdd36170493bf13e8193f90b4d960bf19bdb54d/Database%20diagram.drawio.png">
 </p>
 
