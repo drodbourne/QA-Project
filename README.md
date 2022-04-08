@@ -18,7 +18,15 @@ covered during training listed below.
 * Cloud Fundamentals
 * Databases
 
-<h3><u>Project Planning</u></h3>
+<h3><u>Project Planning & Tracking</u></h3>
+<h4>Phase 1 - Setting up the virtual environment</h4>
+
+Created a virtual machine and SQL server on Google Could Platform. Allowed permissions for http traffic, flask and Jenkins on the vm. Instantiate an instance and connect to VSCode on my workstation. Connect to SQL using MySQL Workbench.
+
+<h4>Phase 2 - Design & coding of application</h4>
+
+ Using methods learnt from training to create, read, update & delete data input from a webform by a user. 
+
 <p>
 <img src="https://github.com/drodbourne/dalerep/blob/a149174923e98137fb5792695049fcc55b0e0de2/Kanban%20Board.drawio.png">
 </p>
