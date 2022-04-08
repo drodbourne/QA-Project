@@ -28,7 +28,7 @@ Created a virtual machine and SQL server on Google Could Platform. Allowed permi
  Using methods learnt from training to create, read, update & delete data input from a webform by a user. 
 
 <p>
-<img src="https://github.com/drodbourne/dalerep/blob/a149174923e98137fb5792695049fcc55b0e0de2/Kanban%20Board.drawio.png">
+<img src="https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
 </p>
 
 <p>
