@@ -36,6 +36,10 @@ Created a virtual machine and SQL server on Google Could Platform. Allowed permi
 </p>
 
 
+<p>
+<img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
+</p>
+
 <details>
 <summary>"Click to expand"</summary>
 this is hidden
