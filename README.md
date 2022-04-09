@@ -49,7 +49,21 @@ The first page opens to allow a user to enter a team name.
 <p>
 <img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
 </p>
-
+<table>
+  
+  <tr>
+    <td>The first page opens to allow a user to enter a team name.</td>
+    <td>So let's input a team name and hit add team</td>
+    
+  </tr>
+  <tr>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/Addteam.png">
+</p></td>
+    <td>Francisco Chang</td>
+    
+  </tr>
+</table>
 <details>
 <summary>"Click to expand"</summary>
 this is hidden
