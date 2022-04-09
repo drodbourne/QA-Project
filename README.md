@@ -29,13 +29,17 @@ Created a virtual machine and SQL server on Google Could Platform. Allowed permi
 
 <h4>Phase 2 - Design & coding of application</h4>
 
- Using methods learnt from training to create, read, update & delete data input from a webform by a user. 
+ Using methods learnt from training to create, read, update & delete data input from a webform by a user. Design database to store data. Coding was done using python.
 
 <h3><u>ERD</u></h3>
 Showing the one to many relationshp between team and players.
 <p>
 <img src="https://raw.githubusercontent.com/drodbourne/dalerep/abdd36170493bf13e8193f90b4d960bf19bdb54d/Database%20diagram.drawio.png">
 </p>
+
+<h4>Phase 3 Front end development </h4>
+
+
 
 
 <p>
