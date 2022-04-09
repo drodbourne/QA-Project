@@ -39,19 +39,8 @@ Showing the one to many relationshp between team and players.
 </p>
 
 <h4>Phase 3 Front end development </h4>
-The first page opens to allow a user to enter a team name.
-
-
-<p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/Addteam.png">
-</p>
-
-<p>
-<img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
-</p>
 <table>
-  
-  <tr>
+    <tr>
     <td>The first page opens to allow a user to enter a team name.</td>
     <td>So let's input a team name and hit add team</td>
     
@@ -60,10 +49,17 @@ The first page opens to allow a user to enter a team name.
     <td><p>
 <img src="https://github.com/drodbourne/dalerep/blob/main/Addteam.png">
 </p></td>
-    <td>Francisco Chang</td>
-    
-  </tr>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/AddteamData.png">
+</p>
+</td>
+      </tr>
 </table>
+
+<p>
+<img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
+</p>
+
 <details>
 <summary>"Click to expand"</summary>
 this is hidden
