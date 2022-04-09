@@ -56,6 +56,20 @@ Showing the one to many relationshp between team and players.
       </tr>
 </table>
 
+<table>
+    <tr>
+    <td>After adding a team it redrects so we can add players to the team.</td>
+    
+    
+  </tr>
+  <tr>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/Addteam.png">
+</p></td>
+    <td>
+      </tr>
+</table>
+
 <p>
 <img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
 </p>
