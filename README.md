@@ -78,6 +78,23 @@ Showing the one to many relationshp between team and players.
  </tr>
 </table>
 
+<table>
+    <tr>
+    <td>The player update page.</td>
+    <td>The player delete page.</td>
+    
+  </tr>
+  <tr>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/PlayerUpdate.png">
+</p></td>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/AddteamData.png">
+</p>
+</td>
+      </tr>
+</table>
+
 
 
 <p>
