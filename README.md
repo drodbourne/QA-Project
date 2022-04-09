@@ -18,7 +18,7 @@ covered during training listed below.
 * Cloud Fundamentals
 * Databases
 
-<h3><u>Project Planning & Tracking</u></h3>
+<h3>Project Planning & Tracking</h3>
 I used a Kanban board to keep track of my progress
 <p>
 <img src="https://github.com/drodbourne/dalerep/blob/main/Kanban%20Board.drawio.png">
@@ -38,7 +38,7 @@ Showing the one to many relationshp between team and players.
 <img src="https://raw.githubusercontent.com/drodbourne/dalerep/abdd36170493bf13e8193f90b4d960bf19bdb54d/Database%20diagram.drawio.png">
 </p>
 
-<h4>Phase 3 Front end development </h4>
+<h4>Phase 3 - Front end development </h4>
 <table>
     <tr>
     <td>The first page opens to allow a user to enter a team name.</td>
@@ -73,7 +73,7 @@ Showing the one to many relationshp between team and players.
     </tr>
   <tr>
     <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/PlayerList.png">
+<img src="https://github.com/drodbourne/dalerep/blob/main/PlayerList2.png">
 </p></td>
  </tr>
 </table>
@@ -96,7 +96,7 @@ Showing the one to many relationshp between team and players.
 </table>
 
 
-
+<h3>Risk Assesment</h3>
 <p>
 <img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
 </p>
