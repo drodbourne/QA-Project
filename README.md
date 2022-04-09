@@ -55,7 +55,6 @@ Showing the one to many relationshp between team and players.
 </td>
       </tr>
 </table>
-
 <table>
     <tr>
     <td>After adding a team it redrects so we can add players to the team. Let's add some players</td>
@@ -67,16 +66,18 @@ Showing the one to many relationshp between team and players.
  </tr>
 </table>
 
+
 <table>
     <tr>
-    <td>After adding a team it redrects so we can add players to the team. Let's add some players</td>
+    <td>Every time you add a player it goes to the player list. Here we can add more players, update or delete a player by following the link</td>
     </tr>
   <tr>
     <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/AddPlayers.png">
+<img src="https://github.com/drodbourne/dalerep/blob/main/PlayerList.png">
 </p></td>
  </tr>
 </table>
+
 
 
 <p>
