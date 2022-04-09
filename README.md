@@ -30,6 +30,7 @@ Created a virtual machine and SQL server on Google Could Platform. Allowed permi
 <h4>Phase 2 - Design & coding of application</h4>
 
  Using methods learnt from training to create, read, update & delete data input from a webform by a user. Design database to store data. Coding was done using python.
+ The app is designed to allow user to create a fantasy football team & add players.
 
 <h3><u>ERD</u></h3>
 Showing the one to many relationshp between team and players.
@@ -38,9 +39,12 @@ Showing the one to many relationshp between team and players.
 </p>
 
 <h4>Phase 3 Front end development </h4>
+The first page opens to allow a user to enter a team name.
 
 
-
+<p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/Addteam.png">
+</p>
 
 <p>
 <img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
