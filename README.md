@@ -89,7 +89,7 @@ Showing the one to many relationshp between team and players.
 <img src="https://github.com/drodbourne/dalerep/blob/main/PlayerUpdate.png">
 </p></td>
     <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/AddteamData.png">
+<img src="https://github.com/drodbourne/dalerep/blob/main/PlayerDelete.png">
 </p>
 </td>
       </tr>
