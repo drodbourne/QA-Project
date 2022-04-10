@@ -95,6 +95,16 @@ Showing the one to many relationshp between team and players.
       </tr>
 </table>
 
+<h4>Phase 4 - Testing</h4>
+
+I seem to have hit a bit of a brick wall here. I made a test_app.py file and used pytest procedures. So far as I can tell all the code is correct but I keep getting the error listed below. I think it has something to with the routes. This part will be updated when I figure out exactly what the problem is
+
+<img src="https://github.com/drodbourne/dalerep/blob/main/ProjectTest.png">
+
+
+
+
+
 
 <h3>Risk Assesment</h3>
 <p>
