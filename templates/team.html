@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Create a team</title>
+    </head>
+    <body>
+        <p>Enter a name for your team </p>
+        <div class='form'>
+            <form method='POST' action=''>
+                {{ form.hidden_tag() }}
+                <tboby>
+                    <tr>
+                        <td>
+                        {{ form.name.label }} {{ form.name }}
+                        </td>
+                        <td>
+                        {{ form.submit }}       
+                        </td>
+                    </tr>
+                </tboby>
+            
+            {{ message }}
+            </form>
+        </div>
+        
+        
+    </body>
+</html>
