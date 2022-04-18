@@ -112,31 +112,3 @@ I seem to have hit a bit of a brick wall here. I made a test_app.py file and use
 </p>
 
 
-<details>
-<summary>"Click to expand"</summary>
-this is hidden
-</details>
-
-> Quote spanning
->
->
-> multiple lines
-* Bullet
-* Point
-* List
-
-1. Numbered
-2. List
-3. 
-
-
-| Column1     | Column2     |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-* Indented
-    * list
-    * would look like
-     * this
-
