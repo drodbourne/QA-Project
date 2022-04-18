@@ -119,9 +119,11 @@ I made a class to test create, read, update and delete functionality for both th
 
 
 <h3>Risk Assesment</h3>
-As this is a basic app the risk 
+As this is a basic app the risk are quite low. But when going into a real project the assesments below should be taken into consideration.
 <p>
 <img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
 </p>
 
-
+<h4>Problems & Challenges</h4>
+The biggest problem and greatest challenge for me was as my pc has no sound I had to follow the course using teams on my mobile. It has not been easy trying to keep
+up with the lessons. I could not share my screen when I was having a problem. I also started the project with the intent of using a cloud SQL database but I did not realise it would use so much of the free credit so I had to resort using sqllite to finish the project. 
