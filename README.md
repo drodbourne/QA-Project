@@ -18,11 +18,29 @@ covered during training listed below.
 * Cloud Fundamentals
 * Databases
 
+<h3>User Story</h3>
+A user story can help to develop the project by providing guidance on what the user wants from the app. It also gives an idea
+of how the app should look and work to meet the requirements of the user. My user is a football coach who manages several youth
+teams of various ages. They would like the app to allow assigning players to a team according to their age. Based on this brief I 
+propose to make an app that will do the following.
+
+* Create teams & players and allow a player to be associated with a team
+* Read a list of teams and a list of players
+* Update teams & players
+* Delete players from a team or delete a team  
+
+
 <h3>Project Planning & Tracking</h3>
-I used a Kanban board to keep track of my progress
+I used Trello to keep track of my progress. 
 <p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/Kanban%20Board.drawio.png">
+<img src="https://github.com/drodbourne/dalerep/blob/main/Trello.png">
 </p>
+<h3><u>ERD</u></h3>
+Showing the one to many relationshp between team and players.
+<p>
+<img src="https://raw.githubusercontent.com/drodbourne/dalerep/abdd36170493bf13e8193f90b4d960bf19bdb54d/Database%20diagram.drawio.png">
+</p>
+
 <h4>Phase 1 - Setting up the virtual environment</h4>
 
 Created a virtual machine and SQL server on Google Could Platform. Allowed permissions for http traffic, flask and Jenkins on the vm. Instantiate an instance and connect to VSCode on my workstation.
@@ -30,38 +48,49 @@ Created a virtual machine and SQL server on Google Could Platform. Allowed permi
 <h4>Phase 2 - Design & coding of application</h4>
 
  Using methods learnt from training to create, read, update & delete data input from a webform by a user. Design database to store data. Coding was done using python.
- The app is designed to allow user to create a fantasy football team & add players.
+ The app is designed to assign a player to a team based on their age as requested by the user.
 
-<h3><u>ERD</u></h3>
-Showing the one to many relationshp between team and players.
-<p>
-<img src="https://raw.githubusercontent.com/drodbourne/dalerep/abdd36170493bf13e8193f90b4d960bf19bdb54d/Database%20diagram.drawio.png">
-</p>
+
 
 <h4>Phase 3 - Front end development </h4>
 <table>
     <tr>
-    <td>The first page opens to allow a user to enter a team name.</td>
-    <td>So let's input a team name and hit add team</td>
-    
-  </tr>
-  <tr>
-    <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/Addteam.png">
-</p></td>
-    <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/AddteamData.png">
-</p>
-</td>
-      </tr>
-</table>
-<table>
-    <tr>
-    <td>After adding a team it redrects so we can add players to the team. Let's add some players</td>
+    <td>The app opens on the home page from here we start by entering a team name so lets click the create new team button </td>
     </tr>
   <tr>
     <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/AddPlayers.png">
+<img src="https://github.com/drodbourne/dalerep/blob/main/HomePage.png">
+</p></td>
+ </tr>
+</table>
+<table>
+    <tr>
+    <td>Enter the name of a team and click add team </td>
+    </tr>
+  <tr>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/TeamAdd.png">
+</p></td>
+ </tr>
+</table>
+<table>
+    <tr>
+    <td>Clicking the view team list will show us all the teams in the database. The teams can be updated or deleted from here </td>
+    </tr>
+  <tr>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/TeamList.png">
+</p></td>
+ </tr>
+</table>
+
+<table>
+    <tr>
+    <td>Clicking the create new player will allow a new player to be associated with a team </td>
+    </tr>
+  <tr>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/PlayersAdd.png">
 </p></td>
  </tr>
 </table>
@@ -69,37 +98,20 @@ Showing the one to many relationshp between team and players.
 
 <table>
     <tr>
-    <td>Every time you add a player it goes to the player list. Here we can add more players, update or delete a player by following the link</td>
+    <td>Clicking the players list will show us all the players in the database. The players can be updated or deleted from here </td>
     </tr>
   <tr>
     <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/PlayerList2.png">
+<img src="https://github.com/drodbourne/dalerep/blob/main/ListPlayers.png">
 </p></td>
  </tr>
-</table>
-
-<table>
-    <tr>
-    <td>The player update page.</td>
-    <td>The player delete page.</td>
-    
-  </tr>
-  <tr>
-    <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/PlayerUpdate.png">
-</p></td>
-    <td><p>
-<img src="https://github.com/drodbourne/dalerep/blob/main/PlayerDelete.png">
-</p>
-</td>
-      </tr>
 </table>
 
 <h4>Phase 4 - Testing</h4>
 
-I seem to have hit a bit of a brick wall here. I made a test_app.py file and used pytest procedures. So far as I can tell all the code is correct but I keep getting the error listed below. I think it has something to with the routes. This part will be updated when I figure out exactly what the problem is
+I made a class to test create, read, update and delete functionality for both the team and players. When I first started the test
 
-<img src="https://github.com/drodbourne/dalerep/blob/main/ProjectTest.png">
+<img src="https://github.com/drodbourne/dalerep/blob/main/Pytest.png">
 
 
 
@@ -107,6 +119,7 @@ I seem to have hit a bit of a brick wall here. I made a test_app.py file and use
 
 
 <h3>Risk Assesment</h3>
+As this is a basic app the risk 
 <p>
 <img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
 </p>
