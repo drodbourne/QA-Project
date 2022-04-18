@@ -109,13 +109,30 @@ Created a virtual machine and SQL server on Google Could Platform. Allowed permi
 
 <h4>Phase 4 - Testing</h4>
 
-I made a class to test create, read, update and delete functionality for both the team and players. When I first started the test
+I made a class to test create, read, update and delete functionality for both the team and players. I also tested for 200 response code to ensure
+the app is following the correct routes. The full set of test can be seen in the test directory.
 
+<table>
+    <tr>
+    <td>Pytest showing 95% coverage </td>
+    </tr>
+  <tr>
+    <td><p>
 <img src="https://github.com/drodbourne/dalerep/blob/main/Pytest.png">
+</p></td>
+ </tr>
+</table>
 
-
-
-
+<table>
+    <tr>
+    <td>This as far as I got using Jenkins. I think I need more education on this as it stopped here. </td>
+    </tr>
+  <tr>
+    <td><p>
+<img src="https://github.com/drodbourne/dalerep/blob/main/Jenkins.png">
+</p></td>
+ </tr>
+</table>
 
 
 <h3>Risk Assesment</h3>
@@ -123,7 +140,12 @@ As this is a basic app the risk are quite low. But when going into a real projec
 <p>
 <img src=https://github.com/drodbourne/QA-Project/blob/main/Risk%20Assesment.drawio.png>
 </p>
+<h3><u>Future Improvements</u></h3>
+As my skills and knowledge improve I will certainly like to add more functionality to the app and make it more colourful. 
 
-<h4>Problems & Challenges</h4>
+<h3>Problems & Challenges</h3>
 The biggest problem and greatest challenge for me was as my pc has no sound I had to follow the course using teams on my mobile. It has not been easy trying to keep
-up with the lessons. I could not share my screen when I was having a problem. I also started the project with the intent of using a cloud SQL database but I did not realise it would use so much of the free credit so I had to resort using sqllite to finish the project. 
+up with the lessons. I could not share my screen with my tutor when I was having a problem. I also started the project with the intent of using a cloud SQL database but I did not realise it would use so much of the free credit so I had to resort using sqllite to finish the project. 
+
+<h3>Acknowledgements</h3>
+When I first started I have to admit I knew nothing about what Devops did or what git was. I had heard of python as a programming language but did not know any of its intricacies. I have learned so much and want to learn more. I would like to thank Earl Grey for being a fantastic tutor. And thanks to QA Academy for helping me realise the potential I have and to believe in my self again. I feel full of confidence and ready to take on any challenge or opportunity that might come my way in the future.   
