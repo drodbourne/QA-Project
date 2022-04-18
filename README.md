@@ -4,7 +4,7 @@
 
 <h3><u>Objective</u></h3>
 
-To create a CRUD application with utilisation of supporting tools,
+To create a CRUD application with a one to many database table relationship. Utilising the support tools,
 methodologies and technologies that encapsulate all core modules
 covered during training listed below.
 
