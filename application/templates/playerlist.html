@@ -1,0 +1,32 @@
+{% extends 'navbar.html' %}
+
+{% block body %}
+<h2>Players list</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Player ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Position</th>
+        </tr>
+        </thead>
+        <tbody>
+<tr>
+    {% for players in all_players %}
+
+    <td>{{players.id}}</td>
+    <td>{{players.name}}</td>
+    <td>{{players.age}}</td>
+    <td>{{players.position}}</td>
+    <td><a href="{{ url_for('update_player', id = players.id) }}"><button type="button">Update Player</button></a></td>
+    <td>--------</td>
+    <td><a href="{{ url_for('delete_player', id = players.id) }}"><button type="button">Delete Player</button></a></td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+
+
+{% endblock %}

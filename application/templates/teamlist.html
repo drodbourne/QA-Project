@@ -1,0 +1,30 @@
+{% extends 'navbar.html' %}
+
+{% block body %}
+<h2>Teams list</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Team ID</th>
+            <th>Team Name</th>
+            
+        </tr>
+        </thead>
+        <tbody>
+<tr>
+    {% for teams in all_teams %}
+
+    <td>{{teams.id}}</td>
+    <td>{{teams.team_name}}</td>
+    <td><a href="{{ url_for('update_team', id = teams.id) }}"><button type="button">Update Team</button></a></td>
+    <td>--------</td>
+    <td><a href="{{ url_for('delete_team', id = teams.id) }}"><button type="button">Delete Team</button></a></td>
+
+
+    </tr>
+
+    {% endfor %}
+</tbody>
+</table>
+{% endblock %}
